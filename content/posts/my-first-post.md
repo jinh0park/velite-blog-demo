@@ -1,0 +1,23 @@
+---
+title: '나의 첫 번째 블로그 포스트'
+date: 2025-09-13
+description: 'Velite과 Next.js를 사용하여 첫 번째 블로그 포스트를 작성합니다.'
+category: 'Essay'
+---
+
+## 마크다운 시작하기
+
+이곳은 **마크다운** 문법으로 작성된 블로그 본문입니다.
+
+- 리스트 아이템 1
+- 리스트 아이템 2
+
+![An Apple](./images/image.png)
+
+<aside>Notion 스타일의 콜아웃을 지원합니다.</aside>
+
+```javascript
+console.log("Syntax Highlight 역시 지원합니다.")
+```
+
+정말 간단하죠?
