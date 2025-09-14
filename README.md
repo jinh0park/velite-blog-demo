@@ -3,6 +3,7 @@
 🚀 빠르고 현대적인 기술 스택으로 구성된 정적 블로그 템플릿입니다. Velite을 사용하여 Markdown 기반의 콘텐츠를 타입-안전하게 관리하고, Next.js 15의 App Router를 통해 최적화된 정적 사이트를 생성합니다.
 
 ![Demo Screenshot](./demo.png)
+[Demo Page](https://jinh0park.github.io/velite-blog-demo)
 
 ## ✨ 주요 기능
 
@@ -47,7 +48,7 @@ GitHub Pages 배포를 위해 `basePath`와 `assetPrefix`를 자신의 저장소
 
 ```typescript
 // next.config.ts
-const repositoryName = 'your-repository-name'; // 👈 이 부분을 자신의 GitHub 저장소 이름으로 변경하세요.
+const repositoryName = 'velite-blog-demo'; // 👈 이 부분을 자신의 GitHub 저장소 이름으로 변경하세요.
 
 const nextConfig: NextConfig = {
   // ...
@@ -63,6 +64,8 @@ const nextConfig: NextConfig = {
 
 ```typescript
 // velite.config.ts
+const repositoryName = 'velite-blog-demo'; // 👈 이 부분도 자신의 GitHub 저장소 이름으로 변경하세요.
+// ...
 const posts = defineCollection({
   // ...
   schema: s.object({
